@@ -1,0 +1,19 @@
+
+
+SSH =  secure shell
+
+Used for:
+	- authentication
+	- we don't need to use user name
+	or password again when we work with GitLab
+
+To set up SSH run the command:
+	- ssh-keygen
+
+
+Step 2: login to the Gitlab account
+
+	-and then go to settings -> SSH keys
+	- Copy the content of the .pub file 
+	(created wen running ssh-keygen) and past it
+	in the key space
